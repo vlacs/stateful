@@ -1,4 +1,4 @@
-(defproject org.vlacs/stateful "0.1.0"
+(defproject org.vlacs/stateful "0.1.1"
   :description "TODO"
   :url "TODO"
   :license {:name "TODO: Choose a license"
