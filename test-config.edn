@@ -1,0 +1,7 @@
+{:test :map
+ :with {:nested :maps}
+ :and-with [:a :vector]
+ "that" "is all"
+ 1 2
+ 10 20
+ 101 202}
