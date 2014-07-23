@@ -1,9 +1,9 @@
 # Stateful
 State is one of those things where despite as much as you want to make your
-library and every app you write to be purely functional, sometimes you need
-state.Stateful is a library that a developer to use system state in a consistent
-way in both practical and easy ways. It is a simple library that deps on nothing
-but Clojure 1.6.
+library and every app you write to be purely functional, sometimes can't always
+have you cake and eat it too. Stateful is a library that a developer to use system
+state in a consistent way in both practical and easy ways. It is a simple library
+that deps on nothing but Clojure 1.6.
 
 ## Releases and Dependency Information
 
