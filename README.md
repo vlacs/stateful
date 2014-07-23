@@ -9,14 +9,14 @@ that deps on nothing but Clojure 1.6.
 
 [Leiningen] dependency information:
 
-    [org.vlacs/stateful "0.1.0"]
+    [org.vlacs/stateful "0.1.1"]
 
 [Maven] dependency information:
 
     <dependency>
-      <groupId>stateful</groupId>
+      <groupId>org.vlacs</groupId>
       <artifactId>stateful</artifactId>
-      <version>0.1.0</version>
+      <version>0.1.1</version>
     </dependency>
 
 [Leiningen]: http://leiningen.org/
@@ -25,7 +25,6 @@ that deps on nothing but Clojure 1.6.
 ## Usage
 
 TODO: Coming soon!
-
 
 ## Change Log
 
