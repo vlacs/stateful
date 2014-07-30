@@ -37,7 +37,8 @@
   ([path item]
    (put-in! (get-system-object) path item))
   ([mutable path item]
-   (swap! mutable assoc-in path item)))
+   (let [path (if (keyword? path) [path] path)]
+     (swap! mutable assoc-in path item))))
 
 (defn get-from
   "Gets an item in a nested system map. Basically a get-in wrapper. It uses the
@@ -45,7 +46,8 @@
   ([path]
    (get-from (get-system-object) path))
   ([mutable path]
-   (get-in (get-state mutable) path)))
+   (let [path (if (keyword? path) [path] path)]
+     (get-in (get-state mutable) path))))
 
 (defn transition!
   "Calls a fn with the current state of the system which returns a new system

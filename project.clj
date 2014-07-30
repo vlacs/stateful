@@ -1,6 +1,6 @@
-(defproject org.vlacs/stateful "0.1.1"
-  :description "TODO"
-  :url "TODO"
+(defproject org.vlacs/stateful "0.1.2"
+  :description "A library for managing state, particularly at development time."
+  :url "https://www.github.com/vlacs/stateful"
   :license {:name "TODO: Choose a license"
             :url "http://choosealicense.com/"}
   :dependencies [[org.clojure/clojure "1.6.0"]]
